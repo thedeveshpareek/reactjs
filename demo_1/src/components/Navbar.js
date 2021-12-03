@@ -2,7 +2,9 @@ import React from 'react'
 
 
 const Navbar = (props) => {
-    return (
+  
+return (
+    
         <div>
  <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
@@ -14,12 +16,17 @@ const Navbar = (props) => {
       <div className="navbar-nav">
         <a className="nav-link active" aria-current="page" href="/">Home</a>
         <a className="nav-link" href="/">About us</a>
+        {/* dark mode button  */}
+        {/* <button  type="button" onClick={toggleStyle} className="btn btn-primary mx-9">Enable dark mode</button> */}
         {/* <a className="nav-link" href="/">Pricing</a>
         <a className="nav-link disabled">Disabled</a> */}
       </div>
     </div>
   </div>
 </nav>
+      
+      
+    
         </div>
     )
 }
