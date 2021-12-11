@@ -1,0 +1,19 @@
+body{
+    font-family: 'poppins',sans-serif;
+}
+.sec{
+    display:flex;
+    flex-direction:column;
+}
+.sec-photo{
+    width:500px;
+    max-width:autoprefixer;
+    align-self:center;
+    
+}
+.h{
+    margin:16px;
+}
+.Para{
+    margin:0 auto;
+}
